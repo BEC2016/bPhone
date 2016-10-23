@@ -89,6 +89,7 @@ label {
 
 .splash-container {
     background: #1f8dd6;
+    background: #2d3e50;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -126,6 +127,7 @@ label {
 
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
+    line-height: 200%;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -214,12 +216,21 @@ label {
     border-right: 0;
 }
 
-.bp-screen p {
+.bp-screen .bp-desp-1 {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3vh;  
+    font-size: 3.5vh;  
+    color: aqua;
+}
+
+.bp-screen .bp-desp-2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5vh;  
     color: aqua;
 }
 
